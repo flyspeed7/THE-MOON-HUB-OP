@@ -52,7 +52,7 @@ local MainTab = Window:CreateMainTab({
 })
 
  MainTab :CreateSection({
-    Name = "脚本页面里面包含了： \n 刀刃球、竞争对手 \n 战斗勇士、河北糖馅 \n doors、doors floor2 \n 大白鲨-感染水域"
+    Name = "该里面包含了全部脚本"
 })
 
  MainTab :CreateToggle({
@@ -882,10 +882,10 @@ UserTab:CreateCredit({
     Text = "更新日志"
 })
 UserTab:CreateCredit({
-    Text = "2024.10.5 \n 刀刃球添加更多功能"
+    Text = "2024.10.5 刀刃球添加更多功能"
 })
 UserTab:CreateCredit({
-    Text = "2024.10.6 \n 优化了 ui 界面掉帧的问题 \n 添加ping和fps窗口 \n 添加 The Rake 脚本"
+    Text = "2024.10.6 添加ping和fps窗口"
 })
 UserTab:CreateCredit({
     Text = "无更新 unllnew"
