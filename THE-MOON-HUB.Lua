@@ -56,24 +56,6 @@ local MainTab = Window:CreateMainTab({
 })
 
  MainTab :CreateToggle({
-    RobberyLocation = "Auto Parry 空缺中",
-    Value = true,
-    Callback = function(Value)
-        
-    end
-})
- MainTab :CreateSlider({
-    Name = "格挡范围",
-    Max = 6,
-    Min = 1,
-    Increment = 5,
-    DecimalPrecision = 0,
-    CurrentValue = 60,
-    Callback = function(Value)
-        ---[[{Parry  historical scope = "ke","Value"}]]
-    end
-})
- MainTab :CreateToggle({
     RobberyLocation = "自动垃圾邮件",
     Value = true,
     Callback = function(Value)
