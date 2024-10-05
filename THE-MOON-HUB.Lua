@@ -70,7 +70,7 @@ local MainTab = Window:CreateMainTab({
     DecimalPrecision = 0,
     CurrentValue = 60,
     Callback = function(Value)
-        --{Parry  historical scope = "ke","Value"}
+        ---[[{Parry  historical scope = "ke","Value"}]]
     end
 })
  MainTab :CreateToggle({
