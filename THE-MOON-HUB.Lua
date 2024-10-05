@@ -60,7 +60,7 @@ local MainTab = Window:CreateMainTab({
     Value = true,
     Callback = function(Value)
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
-    
+    end
 })
  MainTab :CreateSlider({
     Name = "格挡范围",
