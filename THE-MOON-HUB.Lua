@@ -1,7 +1,7 @@
 local HorizonLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/6ayy/HorizonLibrary/main/Library.lua"))()
 local Window = HorizonLibrary:CreateWindow({
     Name = "凌 中心 | Noob Team",
-    Version = "3.0%+"
+    Version = "3.0"
 })
 local ConsoleTab = Window:CreateConsoleTab({
     Name = "简介",
