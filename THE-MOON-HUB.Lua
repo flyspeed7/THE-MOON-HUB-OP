@@ -56,10 +56,10 @@ local MainTab = Window:CreateMainTab({
 })
 
  MainTab :CreateToggle({
-    RobberyLocation = "Auto Parry",
+    RobberyLocation = "Auto Parry 空缺中",
     Value = true,
     Callback = function(Value)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+        
     end
 })
  MainTab :CreateSlider({
